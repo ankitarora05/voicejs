@@ -58,6 +58,7 @@ Or, you can use this package via a CDN:
 ✅ Provides Start Recording and Stop Recording buttons.
 ✅ Allows downloading the recorded voice as a WAV file.
 ✅ No external dependencies, pure JavaScript.
+✅ Transcribes the recorded voice into text using Web Speech API.
 ✅ Works with both NPM and CDN.
 ✅ Simple and lightweight.
 
