@@ -91,6 +91,7 @@ class VoiceRecorder {
     }
 }
 
-export const installVoiceRecorder = (options) => new VoiceRecorder(options);
-
-export default VoiceRecorder;
+// Export as an npm module
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = VoiceRecorder;
+}
