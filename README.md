@@ -1,7 +1,5 @@
 # JavaScript Voice Recorder Plugin
 
-A simple JavaScript plugin that allows users . built with pure JavaScript.  
-
 A simple plugin built with native JavaScript that allows users to record voice notes using their device's microphone and download it as a WAV file.
 
 ## Installation  
@@ -28,7 +26,7 @@ const audioCapture = new VoiceRecorder('recorder-container');
 Or, you can use this package via a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/voicerecorderjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/voicerecorderjs@latest" async></script>
 ```
 
 ### Usage via CDN 
