@@ -1,6 +1,6 @@
 {
 	"name": "voicerecorderjs",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A simple plugin built with native JavaScript that allows users to record a voice notes using their device's microphone and download it as a file.",
 	"main": "src/index.js",
 	"module": "src/index.js",
