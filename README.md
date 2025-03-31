@@ -11,14 +11,14 @@ You can install the plugin via **NPM** or use it directly via **CDN**.
 ### Install via NPM  
 
 ```sh
-npm install voicejs
+npm install voicerecorderjs
 
 ```
 
 ### Usage via npm package
 
 ```javascript
-import installVoiceRecorder, { VoiceRecorder } from "voicejs";
+import installVoiceRecorder, { VoiceRecorder } from "voicerecorderjs";
 
 const audioCapture = new VoiceRecorder('recorder-container');
 ```
@@ -28,7 +28,7 @@ const audioCapture = new VoiceRecorder('recorder-container');
 Or, you can use this package via a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/voicejs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/voicerecorderjs@latest"></script>
 ```
 
 ### Usage via CDN 
@@ -45,7 +45,7 @@ Or, you can use this package via a CDN:
 <body>
     <div id="recorder-container"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/voicejs@latest" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/voicerecorderjs@latest" async></script>
     <script>
         const audioCapture = new VoiceRecorder('recorder-container');
     </script>
