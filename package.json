@@ -17,5 +17,8 @@
 		"url": "git+https://github.com/ankitarora05/voicerecorderjs.git"
 	},
 	"author": "Ankit Arora",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"voicerecorderjs": "^1.0.3"
+	}
 }
